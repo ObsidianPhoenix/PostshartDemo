@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "wcp70/hpADbmVe/OV69DrrgZvySPfHpvrX+oVj67QeYUQsDDPq/R5MY6BjulVvW0MJJ1hoa/tMeav7wsApEXUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fergal.reilly\\source\\Repos\\PostSharpDemo\\src\\Demo\\Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fergal.reilly\\.nuget\\packages\\postsharp\\6.10.8\\postsharp.6.10.8.nupkg.sha512",
+    "C:\\Users\\fergal.reilly\\.nuget\\packages\\postsharp.patterns.aggregation\\6.10.8\\postsharp.patterns.aggregation.6.10.8.nupkg.sha512",
+    "C:\\Users\\fergal.reilly\\.nuget\\packages\\postsharp.patterns.aggregation.redist\\6.10.8\\postsharp.patterns.aggregation.redist.6.10.8.nupkg.sha512",
+    "C:\\Users\\fergal.reilly\\.nuget\\packages\\postsharp.patterns.common\\6.10.8\\postsharp.patterns.common.6.10.8.nupkg.sha512",
+    "C:\\Users\\fergal.reilly\\.nuget\\packages\\postsharp.patterns.common.redist\\6.10.8\\postsharp.patterns.common.redist.6.10.8.nupkg.sha512",
+    "C:\\Users\\fergal.reilly\\.nuget\\packages\\postsharp.patterns.model\\6.10.8\\postsharp.patterns.model.6.10.8.nupkg.sha512",
+    "C:\\Users\\fergal.reilly\\.nuget\\packages\\postsharp.patterns.model.redist\\6.10.8\\postsharp.patterns.model.redist.6.10.8.nupkg.sha512",
+    "C:\\Users\\fergal.reilly\\.nuget\\packages\\postsharp.redist\\6.10.8\\postsharp.redist.6.10.8.nupkg.sha512"
+  ],
+  "logs": []
+}

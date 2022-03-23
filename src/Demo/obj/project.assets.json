@@ -1,0 +1,348 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "PostSharp/6.10.8": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Redist": "[6.10.8, 7.0.0)"
+        },
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "build": {
+          "build/PostSharp.props": {},
+          "build/PostSharp.targets": {}
+        }
+      },
+      "PostSharp.Patterns.Aggregation/6.10.8": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Aggregation.Redist": "[6.10.8, 7.0.0)",
+          "PostSharp.Patterns.Common": "[6.10.8, 7.0.0)"
+        }
+      },
+      "PostSharp.Patterns.Aggregation.Redist/6.10.8": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Common.Redist": "[6.10.8, 7.0.0)"
+        },
+        "compile": {
+          "lib/net5.0/PostSharp.Patterns.Aggregation.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/PostSharp.Patterns.Aggregation.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Common/6.10.8": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp": "[6.10.8, 7.0.0)",
+          "PostSharp.Patterns.Common.Redist": "[6.10.8, 7.0.0)"
+        },
+        "compile": {
+          "lib/netstandard1.3/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/_._": {}
+        }
+      },
+      "PostSharp.Patterns.Common.Redist/6.10.8": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Redist": "[6.10.8, 7.0.0)"
+        },
+        "compile": {
+          "lib/net5.0/PostSharp.Patterns.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/PostSharp.Patterns.Common.dll": {}
+        }
+      },
+      "PostSharp.Patterns.Model/6.10.8": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Aggregation": "[6.10.8, 7.0.0)",
+          "PostSharp.Patterns.Model.Redist": "[6.10.8, 7.0.0)"
+        }
+      },
+      "PostSharp.Patterns.Model.Redist/6.10.8": {
+        "type": "package",
+        "dependencies": {
+          "PostSharp.Patterns.Aggregation.Redist": "[6.10.8, 7.0.0)"
+        },
+        "compile": {
+          "lib/net5.0/PostSharp.Patterns.Model.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/PostSharp.Patterns.Model.dll": {}
+        }
+      },
+      "PostSharp.Redist/6.10.8": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/PostSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/PostSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PostSharp/6.10.8": {
+      "sha512": "rL6cpXCvjddWU9gPuzzswjxiPZC0Wd2wgO5DGTxu9NoSrmcQouulV/wB3HVznj4N1Hhu+IgCM0ViJDDm5yMJpw==",
+      "type": "package",
+      "path": "postsharp/6.10.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "THIRD-PARTY-NOTICES.html",
+        "build/PostSharp-Tools.7z",
+        "build/PostSharp.BeforeTargetFrameworkInference.targets",
+        "build/PostSharp.Version.properties",
+        "build/PostSharp.properties",
+        "build/PostSharp.props",
+        "build/PostSharp.targets",
+        "build/PostSharp.tasks",
+        "build/_common/unzipper/SharpCompress.dll",
+        "build/_common/unzipper/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/_common/unzipper/System.Text.Encoding.CodePages.dll",
+        "build/_common/unzipper/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "build/_common/unzipper/unzipper.deps.json",
+        "build/_common/unzipper/unzipper.dll",
+        "build/_common/unzipper/unzipper.exe",
+        "build/_common/unzipper/unzipper.exe.config",
+        "build/_common/unzipper/unzipper.pdb",
+        "build/_common/unzipper/unzipper.runtimeconfig.json",
+        "build/net472/PostSharp.MSBuild.v6.10.8.Release.dll",
+        "build/net472/PostSharp.MSBuild.v6.10.8.Release.pdb",
+        "build/netcoreapp2.1/PostSharp.MSBuild.v6.10.8.Release.dll",
+        "build/netcoreapp2.1/PostSharp.MSBuild.v6.10.8.Release.pdb",
+        "icon.png",
+        "lib/net35-client/_._",
+        "lib/netstandard1.0/_._",
+        "postsharp.6.10.8.nupkg.sha512",
+        "postsharp.nuspec"
+      ]
+    },
+    "PostSharp.Patterns.Aggregation/6.10.8": {
+      "sha512": "IElYQae2WdEg6GWfdTAbd9qV5zm904hINRMbZ4E5At/QYUcgqW73lVZYUBfcRrDV+DfxXPyH3EYx1b/JvylQQQ==",
+      "type": "package",
+      "path": "postsharp.patterns.aggregation/6.10.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "postsharp.patterns.aggregation.6.10.8.nupkg.sha512",
+        "postsharp.patterns.aggregation.nuspec"
+      ]
+    },
+    "PostSharp.Patterns.Aggregation.Redist/6.10.8": {
+      "sha512": "eilNfbtRA43e/Ose25npM71X6j3gQHBAu+w+n6D2p52bHe0iKHdEORTz1aEXHloXWnqv94xtZPrJed4kPsiUWA==",
+      "type": "package",
+      "path": "postsharp.patterns.aggregation.redist/6.10.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net45/PostSharp.Patterns.Aggregation.dll",
+        "lib/net45/PostSharp.Patterns.Aggregation.xml",
+        "lib/net5.0/PostSharp.Patterns.Aggregation.dll",
+        "lib/net5.0/PostSharp.Patterns.Aggregation.xml",
+        "lib/net6.0/PostSharp.Patterns.Aggregation.dll",
+        "lib/net6.0/PostSharp.Patterns.Aggregation.xml",
+        "lib/netstandard1.3/PostSharp.Patterns.Aggregation.dll",
+        "lib/netstandard1.3/PostSharp.Patterns.Aggregation.xml",
+        "lib/netstandard2.0/PostSharp.Patterns.Aggregation.dll",
+        "lib/netstandard2.0/PostSharp.Patterns.Aggregation.xml",
+        "postsharp.patterns.aggregation.redist.6.10.8.nupkg.sha512",
+        "postsharp.patterns.aggregation.redist.nuspec"
+      ]
+    },
+    "PostSharp.Patterns.Common/6.10.8": {
+      "sha512": "j130m5/uVf6PMW2cbDXdi+m52gU/s9qhTaHy9+tWuTLL+2b24xr9gcJZ6WL9tzkURiZpuaKEjSIpORT7FGtVlw==",
+      "type": "package",
+      "path": "postsharp.patterns.common/6.10.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net40/_._",
+        "lib/netstandard1.3/_._",
+        "postsharp.patterns.common.6.10.8.nupkg.sha512",
+        "postsharp.patterns.common.nuspec",
+        "tools/PostSharp.Patterns.Common.Weaver.dll"
+      ]
+    },
+    "PostSharp.Patterns.Common.Redist/6.10.8": {
+      "sha512": "8o3G78g9/94Rdy61TMohbuCOUVJc5w+ER2KUKu+sIzyeygDiUrVi8b+iIOPNoJssrjkfMq1sNOCOG5fsM7qN6Q==",
+      "type": "package",
+      "path": "postsharp.patterns.common.redist/6.10.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net45/PostSharp.Patterns.Common.dll",
+        "lib/net45/PostSharp.Patterns.Common.xml",
+        "lib/net46/PostSharp.Patterns.Common.dll",
+        "lib/net46/PostSharp.Patterns.Common.xml",
+        "lib/net47/PostSharp.Patterns.Common.dll",
+        "lib/net47/PostSharp.Patterns.Common.xml",
+        "lib/net5.0/PostSharp.Patterns.Common.dll",
+        "lib/net5.0/PostSharp.Patterns.Common.xml",
+        "lib/net6.0/PostSharp.Patterns.Common.dll",
+        "lib/net6.0/PostSharp.Patterns.Common.xml",
+        "lib/netstandard1.3/PostSharp.Patterns.Common.dll",
+        "lib/netstandard1.3/PostSharp.Patterns.Common.xml",
+        "lib/netstandard2.0/PostSharp.Patterns.Common.dll",
+        "lib/netstandard2.0/PostSharp.Patterns.Common.xml",
+        "postsharp.patterns.common.redist.6.10.8.nupkg.sha512",
+        "postsharp.patterns.common.redist.nuspec"
+      ]
+    },
+    "PostSharp.Patterns.Model/6.10.8": {
+      "sha512": "mKCkqEvQbITvqpVOzHeVrzAnT/I3k4lKolL6WArEU7VPF8ZBBeyQDzmvCEX8t3EktmdsDOfrNAtGBtXLpssZVw==",
+      "type": "package",
+      "path": "postsharp.patterns.model/6.10.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "postsharp.patterns.model.6.10.8.nupkg.sha512",
+        "postsharp.patterns.model.nuspec"
+      ]
+    },
+    "PostSharp.Patterns.Model.Redist/6.10.8": {
+      "sha512": "QPMYee4RgscSVofGQWaSvm4EGNTgn6fMAAi8BwpxaQ15b44zZ8nQDAgBBrGZPVmeZN5RLg9t6izgHM2cxQkHnQ==",
+      "type": "package",
+      "path": "postsharp.patterns.model.redist/6.10.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net45/PostSharp.Patterns.Model.dll",
+        "lib/net45/PostSharp.Patterns.Model.xml",
+        "lib/net5.0/PostSharp.Patterns.Model.dll",
+        "lib/net5.0/PostSharp.Patterns.Model.xml",
+        "lib/net6.0/PostSharp.Patterns.Model.dll",
+        "lib/net6.0/PostSharp.Patterns.Model.xml",
+        "lib/netstandard1.3/PostSharp.Patterns.Model.dll",
+        "lib/netstandard1.3/PostSharp.Patterns.Model.xml",
+        "lib/netstandard2.0/PostSharp.Patterns.Model.dll",
+        "lib/netstandard2.0/PostSharp.Patterns.Model.xml",
+        "postsharp.patterns.model.redist.6.10.8.nupkg.sha512",
+        "postsharp.patterns.model.redist.nuspec"
+      ]
+    },
+    "PostSharp.Redist/6.10.8": {
+      "sha512": "bBdwhTbvQbLE8m76JlVZKqupuk8zuqN8tLmF5T8mfcaRgwu9ngFbe59qnd/wavIR4v4tvOikMwYbSBTXQ9Dxsw==",
+      "type": "package",
+      "path": "postsharp.redist/6.10.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net35-client/PostSharp.dll",
+        "lib/net35-client/PostSharp.xml",
+        "lib/net45/PostSharp.dll",
+        "lib/net45/PostSharp.xml",
+        "lib/net5.0/PostSharp.dll",
+        "lib/net5.0/PostSharp.xml",
+        "lib/net6.0/PostSharp.dll",
+        "lib/net6.0/PostSharp.xml",
+        "lib/netstandard1.3/PostSharp.dll",
+        "lib/netstandard1.3/PostSharp.xml",
+        "lib/netstandard2.0/PostSharp.dll",
+        "lib/netstandard2.0/PostSharp.xml",
+        "postsharp.redist.6.10.8.nupkg.sha512",
+        "postsharp.redist.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "PostSharp.Patterns.Model >= 6.10.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\fergal.reilly\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\fergal.reilly\\source\\Repos\\PostSharpDemo\\src\\Demo\\Demo.csproj",
+      "projectName": "Demo",
+      "projectPath": "C:\\Users\\fergal.reilly\\source\\Repos\\PostSharpDemo\\src\\Demo\\Demo.csproj",
+      "packagesPath": "C:\\Users\\fergal.reilly\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fergal.reilly\\source\\Repos\\PostSharpDemo\\src\\Demo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\fergal.reilly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://repos.ad.bedegaming.com:8081/repository/bede-nuget/": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "PostSharp.Patterns.Model": {
+            "target": "Package",
+            "version": "[6.10.8, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
