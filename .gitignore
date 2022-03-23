@@ -351,3 +351,6 @@ MigrationBackup/
 
 # History folders
 .history/
+
+/bin
+/obj
