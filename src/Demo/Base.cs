@@ -1,4 +1,5 @@
 using System.ComponentModel;
+using PostSharp.Patterns.Model;
 
 namespace Demo
 {
