@@ -9,10 +9,6 @@ namespace Demo
         static void Main(string[] args)
         {
             var student = CreateStudent();
-            ((INotifyPropertyChanged)student).PropertyChanged += (sender, e) =>
-            {
-                Console.WriteLine("Property changed: {0}", e.PropertyName);
-            };
 
             OutputStatus(student);
             student.Name = "Fergal";
